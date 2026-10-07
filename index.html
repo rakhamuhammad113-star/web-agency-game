@@ -65,7 +65,7 @@ button {
     <h2>💰 Pesan Game Custom</h2>
 
     <input type="text" id="paket"
-    placeholder="Basic / Standard / Premium">
+    placeholder="Basic / Standard / Premium / Suprame / Ultimate">
 
     <button onclick="hitung()">Hitung Harga</button>
 
@@ -87,6 +87,8 @@ harga = 250000;
 harga = 500000;
 } else if (paket == "Suprame") {
 harga = 1000000;
+} else if (paket == "Ultimate") {
+harga = 2000000;
 } else {
 harga = 0;
 }
